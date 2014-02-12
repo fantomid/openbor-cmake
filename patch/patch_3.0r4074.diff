@@ -1,0 +1,18 @@
+Index: openborscript.c
+===================================================================
+--- openborscript.c	(revision 4074)
++++ openborscript.c	(working copy)
+@@ -4035,13 +4035,6 @@
+     int prop, ap; //int prop, i, ep, t;
+     int result = 0;
+ 
+-    static const char *proplist_counterrange[] =
+-    {
+-        "condition",
+-        "damaged",
+-        "frame",
+-    };
+-
+     static const char *proplist_energycost[] =
+     {
+         "cost",
